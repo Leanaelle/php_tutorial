@@ -1,49 +1,26 @@
 [
     {
-        "name": "Chew Barka",
-        "breed": "Bichon",
-        "age": "",
-        "weight": 8,
-        "bio": "The park, The pool or the Playground - I love to go anywhere! I am really great at... SQUIRREL!",
-        "image": "pet1.png"
-    },
-    {
-        "name": "Spark Pug",
-        "breed": "Pug",
-        "age": "hidden",
-        "weight": 11,
-        "bio": "You want to go to the dog park in style? Then I am your pug!",
-        "image": "pet2.png"
-    },
-    {
-        "name": "Pico de Gato",
-        "breed": "Bengal",
-        "weight": 9,
-        "bio": "Oh hai, if you do not have a can of salmon I am not interested.",
-        "image": "pet3.png"
-    },
-    {
-        "name": "Pancake",
-        "age": "1 year",
-        "weight": 9,
-        "bio": "Treats and Snoozin!",
-        "image": "pancake.png",
-        "breed": "Bulldog"
-    },
-    {
         "name": "Ori",
-        "breed": "Bunny",
+        "breed": "Lapin-nain",
         "weight": "2",
-        "bio": "A tiny bunny who needs love",
+        "bio": "J'aime les c\u00e2lins, les sorties et me promener autour des pieds de mon ma\u00eetre.",
         "image": "ori.jpg",
-        "age": "1 year"
+        "age": "1 an en octobre"
     },
     {
         "name": "Shadow",
-        "breed": "Sheperd",
-        "weight": "40",
-        "bio": "He is a little shy but after that everything is a game !",
+        "breed": "Berger-blanc suisse",
+        "weight": "30",
+        "bio": "Un peu timide sur les bords, mais quand je me l\u00e2che c'est \u00e0 voir ! ",
         "image": "sheperd.jpg",
-        "age": "2 years"
+        "age": "3 ans"
+    },
+    {
+        "name": "Raoul",
+        "breed": "Hamster",
+        "weight": "1",
+        "bio": "Je suis cool !",
+        "image": "hamster.jpg",
+        "age": "2 mois"
     }
 ]

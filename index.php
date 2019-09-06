@@ -40,7 +40,7 @@
                             echo $cutePet['age'];
                         }
                         ?>
-                        <?php echo $cutePet['weight']; ?> lbs
+                        <?php echo $cutePet['weight']; ?> kg
                     </blockquote>
 
                     <p>

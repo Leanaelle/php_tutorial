@@ -26,7 +26,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
         $bio = '';
     }
-}
 $pets = get_pets();
 $newPet = array(
     'name' => $name,
@@ -38,10 +37,11 @@ $newPet = array(
 );
 $pets[] = $newPet;
 
-$json = json_encode($pets, JSON_PRETTY_PRINT);
-file_put_contents('data/pets.json', $json);
+save_pets($pets);
 
-// var_dump($name, $breed, $weight, $bio);die;
+header('Location: /');
+die;
+}
 ?>
 
 
