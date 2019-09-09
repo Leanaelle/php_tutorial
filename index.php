@@ -1,4 +1,11 @@
 <?php
+
+
+    $pdo = new PDO('mysql:dbname=pets_lover;host=localhost','root',null);
+    $result = $pdo->query('SELECT * FROM pet');
+    $rows = $result->fetchAll();
+    var_dump($rows);
+
     require 'lib/functions.php';
 
     $pets = get_pets();
